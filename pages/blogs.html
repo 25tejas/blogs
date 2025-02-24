@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Khadye</title>
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container px-md-0">
+
+                <div class="align-items-center d-flex justify-content-between py-3 w-100 flex-wrap">
+
+                    <h1 class="naming_Section mb-0"> Arvind Khadye </h1>
+
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                        <div class="navbar-nav gap-4">
+                            <a href="../index.html" class="nav-item nav-link">Home</a>
+                            <a href="../pages/blogs.html" class="nav-item nav-link">Blogs</a>
+                            <a href="../pages/contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="mt-2 container px-md-0">
+
+        <ul class="m-0 p-0" id="blog_List">
+            <li>
+                <a href="#" class="d-flex flex-column w-100 blog--card">
+
+                    <div class="blog_list-img--block">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="110" height="110" fill="#FFF">
+                            <path d="M11.122,12.536a3,3,0,0,0-4.244,0l-6.84,6.84A4.991,4.991,0,0,0,5,24H19a4.969,4.969,0,0,0,2.753-.833Z" />
+                            <circle cx="18" cy="6" r="2" />
+                            <path
+                                d="M19,0H5A5.006,5.006,0,0,0,0,5V16.586l5.464-5.464a5,5,0,0,1,7.072,0L23.167,21.753A4.969,4.969,0,0,0,24,19V5A5.006,5.006,0,0,0,19,0ZM18,10a4,4,0,1,1,4-4A4,4,0,0,1,18,10Z" />
+                        </svg>
+                    </div>
+
+                    <div class="blog_list-content">
+                        <h4>Real-time collaboration using Coauthoring</h4>
+                        <p>The 2024 Wave 2 release includes a notable feature for developers creating canvas apps: real-time collaboration using Coauthoring.</p>
+                    </div>
+                    
+
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="d-flex flex-column w-100 blog--card">
+
+                    <div class="blog_list-img--block">
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="110" height="110" fill="#FFF">
+                            <path d="M11.122,12.536a3,3,0,0,0-4.244,0l-6.84,6.84A4.991,4.991,0,0,0,5,24H19a4.969,4.969,0,0,0,2.753-.833Z" />
+                            <circle cx="18" cy="6" r="2" />
+                            <path
+                                d="M19,0H5A5.006,5.006,0,0,0,0,5V16.586l5.464-5.464a5,5,0,0,1,7.072,0L23.167,21.753A4.969,4.969,0,0,0,24,19V5A5.006,5.006,0,0,0,19,0ZM18,10a4,4,0,1,1,4-4A4,4,0,0,1,18,10Z" />
+                        </svg>
+                    </div>
+
+                    <div class="blog_list-content">
+                        <h4>Efficient Data Management using New Enhanced Grid Features</h4>
+                        <p>The 2024 Wave 2 release includes a noteworthy update in the form of new grid features in Power Apps. </p>
+                    </div>
+                    
+
+                </a>
+            </li>
+
+        </ul>
+
+    </main>
+
+
+
+    <footer class="footer_section">
+        <p>©2025 by Arvind Khadye</p>
+    </footer>
+
+    <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../plugins/gsap.min.js"></script>
+    <script>
+        gsap.to(["header","#blog_List > li"],{
+            y:0,
+            opacity:1,
+            stagger:.5,
+            duration:0.925,
+            ease: "power4.out",
+        })
+
+    </script>
+</body>
+
+</html>
